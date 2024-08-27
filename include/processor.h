@@ -7,6 +7,8 @@ class Processor {
 
   // TODO: Declare any necessary private members
  private:
+    long PrevIdle, PrevNonIdle, PrevTotal, Idle, NonIdle, Total, totald, idled;
+    float CPU_Percentage;
 };
 
 #endif
